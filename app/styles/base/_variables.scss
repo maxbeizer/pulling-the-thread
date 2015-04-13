@@ -6,20 +6,34 @@ $heading-font-family: $base-font-family;
 $base-font-size: 1em;
 
 // Line height
-$base-line-height: 1.5;
+$base-line-height: 1.75;
 $heading-line-height: 1.2;
 
 // Other Sizes
 $base-border-radius: 3px;
 $base-spacing: $base-line-height * 1em;
-$small-spacing: $base-spacing / 2;
+$small-spacing: $base-spacing / 3;
 $base-z-index: 0;
 
 // Colors
-$blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$black: #000;
+$white: #fff;
+$off-white: #fff5e5;
+$blue: #477dca;
+$light-blue: #6a99da;
+$dark-blue: #2696ba;
+$orange: #ff8f4a;
+$light-orange: #ffa66f;
+$dark-orange: #f15c00;
+$yellow: #ffd94a;
+$light-yellow: #ff316f;
+$dark-yellow: #f1bf00;
+$primary-color: $blue;
+$secondary-color: $orange;
+$tertiary-color: $yellow;
 
 // Font Colors
 $base-background-color: #fff;
