@@ -11,7 +11,7 @@ var gulp = require('gulp'),
 var production = false,
     paths = {
       app:     'app',
-      html:    'app/**/*.html',
+      html:    'app/**/*.{html,md}',
       styles:  'app/styles/**/*.scss',
       scripts: 'app/scripts/**/*.coffee',
       images:  'app/images/**/*.{png,gif,jpg,jpeg,svg}',

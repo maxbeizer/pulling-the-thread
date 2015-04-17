@@ -5,7 +5,9 @@
     <ul class="unstyled">
       <li class="nav-item"><a href="/">Home</a></li>
       <li class="nav-item"><a href="/about">About</a></li>
-      <li class="nav-item"><a href="/archives">Archives</a></li>
+      {% if site.posts > 2 %}
+        <li class="nav-item"><a href="/archives">Archives</a></li>
+      {% endif %}
     </ul>
   </nav>
 </aside>
