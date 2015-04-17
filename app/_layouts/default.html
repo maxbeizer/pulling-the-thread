@@ -15,7 +15,15 @@
   </head>
 
   <body class="{{ page.body_class }}">
-    {{ content }}
+    <div class="container wrap">
+      {% include shared/sidebar.html %}
+
+      <div class="content-primary">
+        {{ content }}
+      <div>
+    <div>
+
+    {% include shared/footer.html %}
 
     {% include shared/scripts.html %}
     {% include shared/google-analytics.html %}

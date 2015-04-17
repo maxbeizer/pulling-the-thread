@@ -1,0 +1,28 @@
+.nav-primary {
+  @include outer-container();
+  padding: 1em;
+
+  @include media($large-screen) {
+    padding: 0em;
+  }
+
+  ul {
+    @include span-columns(6);
+    @include shift(3);
+
+    @include media($large-screen) {
+      @include span-columns(12);
+      @include shift(0);
+    }
+  }
+
+  .nav-item {
+    @include span-columns(4);
+    display: inline-block;
+
+    @include media($large-screen) {
+      float: none;
+      display: block;
+    }
+  }
+}

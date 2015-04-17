@@ -1,0 +1,18 @@
+.content-primary {
+  @include media($large-screen) {
+    @include span-columns(9);
+    @include omega();
+
+    padding-top: 0.1em;
+  }
+}
+
+.content-secondary {
+  @include media($large-screen) {
+    @include span-columns(3);
+  }
+}
+
+.wrap {
+  padding: 1em 1em 0;
+}
