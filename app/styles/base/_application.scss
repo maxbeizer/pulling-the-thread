@@ -48,3 +48,8 @@ body:before {
 .wrap {
   padding: 1em 1em 0;
 }
+
+.hero {
+  background: $secondary-color;
+  padding: $base-spacing;
+}
